@@ -1,0 +1,38 @@
+{
+  "_ghi_chu": "Cấu hình phạm vi bệnh cho Giai đoạn 4. 'ten_khop' liệt kê các tên có thể gặp trong release_conditions.json (bản tiếng Anh hoặc tiếng Pháp); script tự tìm khóa thật trong dữ liệu.",
+  "trong_pham_vi_ml": [
+    {"ma_noi_bo": "URTI",               "ten_vi": "Nhiễm trùng đường hô hấp trên", "nhom": "HO_HAP",   "ten_khop": ["URTI", "IVRS ou virémie"]},
+    {"ma_noi_bo": "VIEM_HONG_VIRUS",    "ten_vi": "Viêm họng do virus",           "nhom": "HO_HAP",   "ten_khop": ["Viral pharyngitis", "Pharyngite virale"]},
+    {"ma_noi_bo": "CUM",                "ten_vi": "Cúm",                           "nhom": "HO_HAP",   "ten_khop": ["Influenza"]},
+    {"ma_noi_bo": "VIEM_MUI_XOANG_CAP", "ten_vi": "Viêm mũi xoang cấp",           "nhom": "HO_HAP",   "ten_khop": ["Acute rhinosinusitis", "Rhinosinusite aigue"]},
+    {"ma_noi_bo": "VIEM_MUI_DI_UNG",    "ten_vi": "Viêm mũi xoang dị ứng",        "nhom": "HO_HAP",   "ten_khop": ["Allergic sinusitis", "Rhinite allergique"]},
+    {"ma_noi_bo": "VIEM_THANH_QUAN",    "ten_vi": "Viêm thanh quản cấp",          "nhom": "HO_HAP",   "ten_khop": ["Acute laryngitis", "Laryngite aigue"]},
+    {"ma_noi_bo": "VIEM_PHE_QUAN",      "ten_vi": "Viêm phế quản cấp",            "nhom": "HO_HAP",   "ten_khop": ["Bronchitis", "Bronchite"]},
+    {"ma_noi_bo": "GERD",               "ten_vi": "Trào ngược dạ dày – thực quản", "nhom": "TIEU_HOA", "ten_khop": ["GERD", "RGO"]}
+  ],
+  "benh_luat": [
+    {"ten_vi": "Viêm dạ dày ruột cấp",    "nhom": "TIEU_HOA", "muc_mac_dinh": 1},
+    {"ten_vi": "Khó tiêu",                "nhom": "TIEU_HOA", "muc_mac_dinh": 1},
+    {"ten_vi": "Táo bón",                 "nhom": "TIEU_HOA", "muc_mac_dinh": 1},
+    {"ten_vi": "Đau đầu căng thẳng",      "nhom": "KHAC",     "muc_mac_dinh": 1},
+    {"ten_vi": "Viêm kết mạc",            "nhom": "KHAC",     "muc_mac_dinh": 1},
+    {"ten_vi": "Mề đay / dị ứng da",      "nhom": "KHAC",     "muc_mac_dinh": 1},
+    {"ten_vi": "Sốt xuất huyết",          "nhom": "KHAC",     "muc_mac_dinh": 2}
+  ],
+  "rat_nang": {
+    "_ghi_chu": "Bệnh 'rất nặng' (lưới an toàn) = 2 bậc severity nặng nhất của DDXPlus. Chiều của thang (1 là nặng nhất hay nhẹ nhất) được script tự dò bằng các bệnh mốc bên dưới. Quản trị nội dung vẫn sửa được cờ rat_nang trong CSDL.",
+    "so_bac_nang_nhat": 2,
+    "moc_nang": ["Pulmonary embolism", "Anaphylaxis", "Possible NSTEMI / STEMI", "Embolie pulmonaire", "Anaphylaxie"],
+    "moc_nhe": ["URTI", "IVRS ou virémie", "Allergic sinusitis", "Rhinite allergique"]
+  },
+  "nguong": {
+    "top1": 0.50,
+    "rat_nang": 0.10,
+    "ngoai_pham_vi": 0.15
+  },
+  "muc_tieu": {
+    "top1": 0.90,
+    "top3": 0.97,
+    "recall_can_kham": 0.98
+  }
+}

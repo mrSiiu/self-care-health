@@ -25,6 +25,7 @@
 | 1 | [Phân tích nghiệp vụ](docs/01-phan-tich-nghiep-vu.md) | Bối cảnh, phạm vi, tác nhân, quy trình, quy tắc BR01–BR14, use case, NFR, 15 bệnh, ngưỡng |
 | 2 | [Phân tích hệ thống + UML](docs/02-phan-tich-he-thong.md) | Use case phân rã, đặc tả, sơ đồ hoạt động, tuần tự, lớp, trạng thái; đề xuất Đ1–Đ6, BR15–BR20 |
 | 3 | [Thiết kế](docs/03-thiet-ke.md) | Kiến trúc, ERD, SQL, design pattern, API, bảo mật, scheduler |
+| 4 | [Học máy](docs/04-hoc-may.md) | Dữ liệu DDXPlus, đặc trưng, tăng cường dữ liệu, chọn mô hình, hiệu chỉnh xác suất, đánh giá an toàn. Code: [`ml-service/`](ml-service/) |
 
 Các sơ đồ viết bằng PlantUML. Có thể xem bằng [planttext.com](https://www.planttext.com) hoặc extension PlantUML trên VS Code.
 

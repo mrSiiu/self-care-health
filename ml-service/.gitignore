@@ -1,0 +1,5 @@
+# Bổ sung cho .gitignore ở gốc repo
+.pytest_cache/
+data_gia/
+models/*
+!models/.gitkeep
