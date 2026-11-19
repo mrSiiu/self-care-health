@@ -38,15 +38,6 @@ docker compose exec -T postgres psql -U hmnc -d hmnc < backend/src/main/resource
 # Xem email demo: http://localhost:8025
 ```
 
-## Tiến độ
-- [x] Giai đoạn 1 – Phân tích nghiệp vụ
-- [x] Giai đoạn 2 – Phân tích hệ thống + UML
-- [x] Giai đoạn 3 – Thiết kế (CSDL, kiến trúc, design pattern)
-- [ ] Dữ liệu tri thức: bệnh, triệu chứng tiếng Việt ↔ evidence DDXPlus (V2, V3)
-- [ ] Giai đoạn 4 – Học máy: train mô hình trên DDXPlus
-- [ ] Giai đoạn 5 – Triển khai backend, ML service, frontend
-- [ ] Giai đoạn 6 – Test case
-- [ ] Giai đoạn 7 – Báo cáo, demo
 
 ## Dữ liệu
 Bộ dữ liệu **DDXPlus** (Fansi Tchango et al., NeurIPS 2022, Figshare 20043374) không được đưa vào repo. Xem hướng dẫn tải ở [`data/README.md`](data/README.md).
