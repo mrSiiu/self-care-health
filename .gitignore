@@ -1,0 +1,33 @@
+# Môi trường
+.env
+*.local
+
+# Dữ liệu DDXPlus và mô hình (file lớn, tải riêng)
+data/raw/
+data/processed/
+ml-service/models/*.pkl
+ml-service/models/*.joblib
+
+# Java / Maven
+backend/target/
+*.class
+.mvn/wrapper/maven-wrapper.jar
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Node
+node_modules/
+frontend/dist/
+
+# IDE / OS
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.iml
+.DS_Store
+Thumbs.db
